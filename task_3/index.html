@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>task_3</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/my_scrypt.js"></script>
+ 	</head>
+	<body>
+	<div class="header">
+		<div class="header_content">
+			<a href="#"><h2>Kohl Corp. Vacation planning</h2></a>
+			<div class="header_right">
+				<ul class="my_menu">
+					<li><a href="#">Hi, Matthew</a></li>
+					<li><a href="#">My info</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+				<a class="logout" href="#">Logout</a>
+			</div>
+			<div class="clear"></div>	
+			<img id="toggle_menu" class="menu_btn" src="img/bars.png" alt="menu">
+		</div>
+	</div>	
+	<div class="content">
+		<div class="tabs">
+			<ul class="tab_menu">
+				<li class="act"><span data-tabs="1" class="active">Overview</span></li>
+				<li><span data-tabs="2">Time Offs</span></li>
+				<li><span data-tabs="3">Purchases</span></li>
+				<li><span data-tabs="4">Employees</span></li>
+			</ul>
+			<a class="setting" href="#">Company settings</a>
+		</div>
+		<div class="clear"></div>
+		<div class="page">
+			<div id="1" class="tab">
+				<div class="overview">
+					<p class="title">Overview</p>
+					<div class="item first">
+						<div class="window close">
+							<div class="window_top">
+								<img class="avatar" src="img/foto_1.jpg" alt="foto_1">
+								<span class="window_name">Christina Frerichs</span>
+								<p class="prof">meneger</p>
+							</div>	
+							<div class="clear"></div>
+							<div class="window_content">
+								<div class="windows_content_left">
+									<p>10 days left</p>
+									<p>13 days pending</p>
+									<p>10 days rejecting</p>
+								</div>
+								<p class="window_content_right">3/5</p>
+							</div>
+							<div class="clear"></div>
+							<div class="window_bottom">
+								<a href="#" class="link">last activity 12 days ago</a>
+								<a href="#" class="link">users time off</a>
+								<a href="#" class="link">todo list</a>
+							</div>
+						</div>
+						<img class="foto" src="img/foto_1.jpg" alt="foto_1">
+						<div class="info">
+							<span class="name foto_name">Christina Frerichs</span>
+							<span class="asks">asks for time off</span>
+							<a class="date" href="#">May 15-20</a>
+							<span class="interval">, 5 days. Sickness</span>
+							<span class="status bg_yellow" >Pending</span>
+							<div class="comments">
+								<div class="top_comments">
+									<span class="text">I need some rest khbvjhv hgvgh jhgujyhg uyghjg uyjghuh hhgfh hjgvjhgvj jhjghj iyguyjguyjhg yguyjg I need some rest khbvjhv hgvgh jhgujyhg uyghjg uyjghuh hhgfh hjgvjhgvj jhjghj iyguyjguyjhg yguyjg I need some rest khbvjhv hgvgh jhgujyhg uyghjg uyjghuh hhgfh hjgvjhgvj jhjghj iyguyjguyjhg yguyjg-</span>
+									<a class="name" href="#">Shona L.Brown</a>
+									<span class="time">1 hour ago</span>
+								</div>
+								<div class="my_answer"><a class="answer" href="#">Answer</a></div>
+								<div class="clear"></div>
+							</div>					
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="window close">
+							<div class="window_top">
+								<img class="avatar" src="img/foto_2.jpg" alt="foto_2">
+								<span class="window_name">Daniele Longo</span>
+								<p class="prof">meneger</p>
+							</div>	
+							<div class="clear"></div>
+							<div class="window_content">
+								<div class="windows_content_left">
+									<p>10 days left</p>
+									<p>13 days pending</p>
+									<p>10 days rejecting</p>
+								</div>
+								<p class="window_content_right">3/5</p>
+							</div>
+							<div class="clear"></div>
+							<div class="window_bottom">
+								<a href="#" class="link">last activity 12 days ago</a>
+								<a href="#" class="link">users time off</a>
+								<a href="#" class="link">todo list</a>
+							</div>
+						</div>
+						<img class="foto" src="img/foto_2.jpg" alt="foto_2">
+						<div class="info">
+							<span class="name foto_name">Daniele Longo</span>
+							<span class="asks">asks for time off</span>
+							<a class="date" href="#">May 10-17</a>
+							<span class="interval">, 5 days. Holiday</span>
+							<span class="status bg_yellow" >Pending</span>
+							<div class="comments">
+								<div class="top_comments">
+									<span class="text">I need some rest -</span>
+									<a class="name" href="#">Shona L.Brown</a>
+									<span class="time">1 hour ago</span>
+								</div>
+								<div class="my_answer"><a class="answer" href="#">Answer</a></div>
+								<div class="clear"></div>
+							</div>					
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="act_stories">
+					<p class="title">Active stories</p>
+					<div class="item first">
+						<div class="window close">
+							<div class="window_top">
+								<img class="avatar" src="img/foto_1.jpg" alt="foto_1">
+								<span class="window_name">Christina Frerichs</span>
+								<p class="prof">meneger</p>
+							</div>	
+							<div class="clear"></div>
+							<div class="window_content">
+								<div class="windows_content_left">
+									<p>10 days left</p>
+									<p>13 days pending</p>
+									<p>10 days rejecting</p>
+								</div>
+								<p class="window_content_right">3/5</p>
+							</div>
+							<div class="clear"></div>
+							<div class="window_bottom">
+								<a href="#" class="link">last activity 12 days ago</a>
+								<a href="#" class="link">users time off</a>
+								<a href="#" class="link">todo list</a>
+							</div>
+						</div>
+						<img class="foto" src="img/foto_1.jpg" alt="foto_1">
+						<div class="info">
+							<span class="name foto_name">Christina Frerichs</span>
+							<span class="asks">asks for new purchase</span>
+							<span class="interval">Notebook, &1,000</span>
+							<span class="status bg_blue">Bought</span>
+							<div class="comments">
+								<div class="comments_left">
+									<div class="string">
+										<span class="text">Done hgvjh vjhvjh vhj bhjv bjhv bjhvh jvjh bjhvbjh vbj vhjvj bvjhvjhv jhvjhv</span>
+										<a class="name" href="#">Shona L.Brown</a>
+										<span class="time">1 hour ago</span>
+									</div>	
+								</div>
+								<div class="hide">
+									<span class="answer_1">3 comments</span>
+									<span class="answer_2">Hide</span>
+								</div>
+								<div class="clear"></div>
+								<div class="double"></div>
+							</div>					
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="window close">
+							<div class="window_top">
+								<img class="avatar" src="img/foto_3.jpg" alt="foto_3">
+								<span class="window_name">Harold Henriquez</span>
+								<p class="prof">meneger</p>
+							</div>	
+							<div class="clear"></div>
+							<div class="window_content">
+								<div class="windows_content_left">
+									<p>10 days left</p>
+									<p>13 days pending</p>
+									<p>10 days rejecting</p>
+								</div>
+								<p class="window_content_right">3/5</p>
+							</div>
+							<div class="clear"></div>
+							<div class="window_bottom">
+								<a href="#" class="link">last activity 12 days ago</a>
+								<a href="#" class="link">users time off</a>
+								<a href="#" class="link">todo list</a>
+							</div>
+						</div>
+						<img class="foto" src="img/foto_3.jpg" alt="foto_3">
+						<div class="info">
+							<span class="name foto_name">Harold Henriquez</span>
+							<span class="asks">asks for new purchase</span>
+							<span class="interval">Notebook, &1,000</span>
+							<span class="status bg_blue">Bought</span>
+							<div class="comments">
+								<div class="comments_left">
+									<div class="string">
+										<span class="text">I want a new laptop -</span>
+										<a class="name" href="#">Harold Henriquez</a>
+									</div>	
+									<div class="string">
+										<span class="text">No problem -</span>
+										<a class="name" href="#">D.Bruce Sewell</a>
+									</div>	
+									<div class="string">
+										<span class="text">Done</span>
+										<a class="name" href="#">Shona L.Brown</a>
+										<span class="time">35 min ago</span>
+									</div>
+								</div>
+								<div class="hide">
+									<span class="answer_1">comments</span>
+									<span class="answer_2">Hide</span>
+								</div>
+								<div class="clear"></div>
+								<div class="double"></div>
+							</div>					
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="window close">
+							<div class="window_top">
+								<img class="avatar" src="img/foto_3.jpg" alt="foto_3">
+								<span class="window_name">Harold Henriquez</span>
+								<p class="prof">meneger</p>
+							</div>	
+							<div class="clear"></div>
+							<div class="window_content">
+								<div class="windows_content_left">
+									<p>10 days left</p>
+									<p>13 days pending</p>
+									<p>10 days rejecting</p>
+								</div>
+								<p class="window_content_right">3/5</p>
+							</div>
+							<div class="clear"></div>
+							<div class="window_bottom">
+								<a href="#" class="link">last activity 12 days ago</a>
+								<a href="#" class="link">users time off</a>
+								<a href="#" class="link">todo list</a>
+							</div>
+						</div>
+						<img class="foto" src="img/foto_3.jpg" alt="foto_3">
+						<div class="info">
+							<span class="name foto_name">Harold Henriquez</span>
+							<span class="asks">asks for new purchase</span>
+							<span class="interval">Notebook Asus EEE PC, &1,000</span>
+							<span class="status bg_green">Approved</span>
+							<div class="comments">
+								<div class="comments_left">
+									<div class="string">
+										<span class="text">I want a new laptop -</span>
+										<a class="name" href="#">Harold Henriquez</a>
+									</div>	
+									<div class="string">
+										<span class="text">No problem -</span>
+										<a class="name" href="#">D.Bruce Sewell</a>
+										<span class="time edit">1 hour ago</span>
+									</div>	
+								</div>
+								<div class="hide">
+									<span class="answer_1">comments</span>
+									<span class="answer_2">Hide</span>
+								</div>
+								<div class="clear"></div>
+								<div class="double"></div>
+							</div>					
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="item">
+						<div class="window close">
+							<div class="window_top">
+								<img class="avatar" src="img/foto_4.jpg" alt="foto_4">
+								<span class="window_name">Daniele Longo</span>
+								<p class="prof">meneger</p>
+							</div>	
+							<div class="clear"></div>
+							<div class="window_content">
+								<div class="windows_content_left">
+									<p>10 days left</p>
+									<p>13 days pending</p>
+									<p>10 days rejecting</p>
+								</div>
+								<p class="window_content_right">3/5</p>
+							</div>
+							<div class="clear"></div>
+							<div class="window_bottom">
+								<a href="#" class="link">last activity 12 days ago</a>
+								<a href="#" class="link">users time off</a>
+								<a href="#" class="link">todo list</a>
+							</div>
+						</div>
+						<img class="foto" src="img/foto_4.jpg" alt="foto_4">
+						<div class="info">
+							<span class="name foto_name">Daniele Longo</span>
+							<span class="asks">asks for new purchase</span>
+							<span class="interval">Notebook, &1,000</span>
+							<span class="status bg_green">Approved</span>
+							<div class="comments">
+								<div class="comments_left">
+									<div class="string">
+										<span class="text">I want a new laptop -</span>
+										<a class="name" href="#">Daniele Longo</a>
+									</div>	
+									<div class="string">
+										<span class="text">Ok. I don't mind -</span>
+										<a class="name" href="#">D.Bruce Sewell</a>
+										<span class="time edit">1 min ago</span>
+									</div>	
+								</div>
+								<div class="hide">
+									<span class="answer_1">comments</span>
+									<span class="answer_2">Hide</span>
+								</div>
+								<div class="clear"></div>
+								<div class="double"></div>
+							</div>					
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div id="2" class="tab">tab2</div>
+			<div id="3" class="tab">tab3</div>
+			<div id="4" class="tab">tab4</div>
+		</div>
+	</div>	
+	</body>
+</html>

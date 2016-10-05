@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: 'arimo';
+    src: url('../fonts/arimo-regular-webfont.eot');
+    src: url('../fonts/arimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arimo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arimo-regular-webfont.woff') format('woff'),
+         url('../fonts/arimo-regular-webfont.svg#arimoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin:0; padding: 0;
+}
+body, html{
+    background:url(../img/backgr.png) repeat; 
+    height: 100%; 
+    width: 100%;
+    font-family: 'arimo', sans-serif;
+    font-size: 14px;
+    color: #4e4e4e;
+    min-width: 320px;
+}
+footer{margin: -50px auto 0;
+    width: 100%;
+    min-width: 240px;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+/*-----global---*/
+.float_right{
+    float: right;
+    width: 69px;
+}
+.inline{display: inline-block; vertical-align: middle;}
+/*--headerTop----*/
+.headerTop{background-color: #333; min-height: 50px;}
+.headerLogo{font-size: 24px; color:#fff; padding-top: 7px;}
+.headerTop button{
+	width: 100%; 
+	height: 25px; 
+	background-color: #f52323; 
+	color: #fff; 
+	font-size: 14px; 
+	border-radius: 2px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.headerTop .right{padding-top: 11px;}
+.flagEng{
+	background: url(../img/flagEng.png) no-repeat;
+    cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+.flagAus{
+	background: url(../img/flagAus.png) no-repeat;
+	cursor: pointer;
+    width: 16px;
+	height: 16px;
+}
+.logo {color: #fff; 
+    margin-top:10px; 
+}
+.my_btn, .my_check{
+    padding-top: 10px;
+}
+.headerBottom{
+    background-color: #dbdbdb;
+    border-bottom: 1px solid #cbcbcb;
+    box-shadow:0 1px 20px -1px rgba(0, 0, 0, 0.3);
+    min-height: 50px;
+    padding-top: 8px;
+}
+/*--checkbox---*/
+input[type="checkbox"] {
+    background: #2a2a2a;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1) inset, 
+                0 0 4px rgba(0, 0, 0, 0.5) inset, 
+                0 5px 4px 1px rgba(0, 0, 0, 0.3) inset, 
+                0 27px 0 rgba(0, 0, 0, 0.07) inset;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 13px;
+    width: 28px;
+    position: relative;
+}
+input[type="checkbox"]:after {
+    background-color: #eee;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 12px;
+    left: 2px;
+    position: absolute;
+    top: 1px;
+    width: 12px;
+    background: #E5E5E5;
+    background: linear-gradient(#D0D0D0, #FDFDFD);
+    box-shadow: 0 0 5px 2px #6c6c6c inset, 4px 0px 12px 4px rgba(0, 0, 0, 0.7);
+}
+/*-------*/
+.page{
+    position: relative;
+    padding-top: 30px;
+        margin-bottom: 70px;
+}
+.content{margin-right: 240px;}
+.item{
+    margin-top: 15px;
+    padding-left: 0px;
+
+}
+.dop{
+    background-color: #fff;
+}
+.dop img{width: 100%; display: block;}
+.img,.dop h2, .dop > p{padding: 12px;}
+.dop h2{margin-top: 0px;}
+.info{
+    background-color: rgba(0,0,0,0.2);
+    padding: 12px;
+}
+.info p{margin: 0px;
+    line-height: 22px;
+    color:#7b7a7a;
+}
+/*--price---*/
+.price:after{
+    content: '$ 2 500';
+    min-height: 33px;
+    min-width: 20%;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    right: 27px;
+    top: 12px;
+    padding: 2%;
+    text-align: center;
+    font-size: 26px;
+}
+.price_1:after{
+    content: '$ 11 800';
+    min-height: 33px;
+    min-width: 20%;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    right: 16px;
+    top: 0px;
+    padding: 2%;
+    text-align: center;
+    font-size: 26px;
+}
+.color{
+    background-color: #fef5ca;
+    box-shadow: 6px 6px 8px -2px rgba(0, 0, 0, 0.2);
+}
+/*---banners------*/
+.banners{width: 215px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    margin-right: 15px;
+}
+.banner{padding-bottom: 12px;}
+/*---------*/
+/*--media--*/
+/*---------*/
+@media only screen and (max-width : 768px){
+    .float_right{
+        margin: auto; 
+        float: none;
+        padding-bottom: 15px;
+    }
+    .banners{
+        display: none;
+    }
+    .content{margin-right: 0px;}
+}
